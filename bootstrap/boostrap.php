@@ -6,3 +6,6 @@ $app->get('/', function(){
 $app->get('/contact', function(){
     echo "Conatct";
 });
+$app->get('/signup', function(){
+    echo "Signup";
+});
